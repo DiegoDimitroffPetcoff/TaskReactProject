@@ -1,6 +1,6 @@
 import { LEVELS } from "./levels.enum";
 
-export const Task = {
+export class Task  {
     name= '';
     description= '';
     completed= false;
