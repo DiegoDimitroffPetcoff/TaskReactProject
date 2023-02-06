@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 // import Greeting  from "./COMPONENTS/pure/greeting";
 // import Greetingf  from "./COMPONENTS/pure/greetingF";
-import TaskListComponent  from "./COMPONENTS/container/task_list"
+//import TaskListComponent  from "./COMPONENTS/container/task_list"
+import { Greetingstyled } from './COMPONENTS/pure/greetingStyles';
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +12,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
   {/* <Greeting name="Diego"></Greeting> */}
   {/* <Greetingf name="Diego"></Greetingf> */}
-  <TaskListComponent></TaskListComponent>
+  {/*<TaskListComponent></TaskListComponent>*/}
+  <Greetingstyled name="Diego"></Greetingstyled>
       </header>
     </div>
   );
