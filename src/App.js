@@ -4,6 +4,7 @@ import './App.css';
 // import Greetingf  from "./COMPONENTS/pure/greetingF";
 //import TaskListComponent  from "./COMPONENTS/container/task_list"
 import { Greetingstyled } from './COMPONENTS/pure/greetingStyles';
+import { Fetch } from './COMPONENTS/pure/fetch';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
   {/* <Greeting name="Diego"></Greeting> */}
   {/* <Greetingf name="Diego"></Greetingf> */}
   {/*<TaskListComponent></TaskListComponent>*/}
-  <Greetingstyled name="Diego"></Greetingstyled>
+  {/*<Greetingstyled name="Diego"></Greetingstyled>*/}
+  <Fetch></Fetch>
       </header>
     </div>
   );
