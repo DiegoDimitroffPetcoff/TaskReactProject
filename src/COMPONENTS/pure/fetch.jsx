@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React  from "react";
 
 
-export const Greetingstyled = (props) => {
+export const Fetch = (props) => {
 
 let url = 'https://jsonplaceholder.typicode.com/users'
 fetch(url)
 .then(response=> response.json())
-.then(data=> console.assert(data))
+.then( data=> console.assert(data))
 .catch(error=> console.log(error))
 
 

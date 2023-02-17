@@ -3,7 +3,7 @@ import './App.css';
 // import Greeting  from "./COMPONENTS/pure/greeting";
 // import Greetingf  from "./COMPONENTS/pure/greetingF";
 //import TaskListComponent  from "./COMPONENTS/container/task_list"
-import { Greetingstyled } from './COMPONENTS/pure/greetingStyles';
+//import { Greetingstyled } from './COMPONENTS/pure/greetingStyles';
 import { Fetch } from './COMPONENTS/pure/fetch';
 
 function App() {
