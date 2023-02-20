@@ -13,7 +13,7 @@ fetch(url)
     return (
         <div >
 
-<h1>ejemplo</h2>
+<h1>EJEMPLO NUEVO</h1>
 
 
 
