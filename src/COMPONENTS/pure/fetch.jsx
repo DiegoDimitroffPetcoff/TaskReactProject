@@ -3,7 +3,7 @@ import React  from "react";
 
 export const Fetch = (props) => {
 
-let url = 'https://jsonplaceholder.typicode.com/users'
+let url = 'https://nestjstuits.onrender.com/tuits'
 fetch(url)
 .then(response=> response.json())
 .then( data=> console.assert(data))
